@@ -10,7 +10,7 @@ Trang nhỏ, mở ra là **tự chuyển ngay** sang Web App của **tài khoả
 | https://tc-1209.github.io/luctrathanghoa/ship | Tính ship |
 | https://tc-1209.github.io/luctrathanghoa/nhansu | Nhân sự |
 
-- Đổi link `/exec` (khi tạo **bản triển khai mới**): sửa dòng `var APP_URL = …` ở **cả** `index.html` và `404.html`.
+- Đổi link `/exec` (khi tạo **bản triển khai mới**): sửa dòng `var APP_URL = …` (xem dòng dưới).
   Cập nhật code bình thường (bút chì → Phiên bản mới) thì link `/exec` **không đổi**, không cần sửa gì.
-- `404.html` giống hệt `index.html`: GitHub Pages trả trang này cho `…/ketca`, `…/ship`, `…/nhansu` (không có file thật).
+- `ketca/`, `ship/`, `nhansu/` và `404.html` đều là **bản chép y hệt** `index.html` (trang tự nhận đuôi link). Đổi `APP_URL` thì sửa **cả 5 file**.
 - Trang chỉ chứa link `/exec` (vốn đã gửi cho nhân viên); app vẫn bắt đăng nhập Google + PIN nên để công khai không lộ dữ liệu.
